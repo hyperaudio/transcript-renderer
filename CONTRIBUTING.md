@@ -31,7 +31,7 @@ There are issues marked with the **['help wanted'](https://github.com/hyperaudio
 In general, the contribution workflow looks like this:
 
 1. **Fork** the repo.
-2. **Clone** the repo. `git clone https://github.com/your-username/transcript-renderer.git`.
+2. **Clone** the repo. `git clone https://github.com/hyperaudio/transcript-renderer.git`.
 3. Create a **new branch** based off the master branch, provide a **descriptive name** <br/>(ex. '**feat**-add-better-logging', '**bug**-removed-double-method', '**enh**-bumped-eslint')
 4. Before running the code you’ll need to **install** the **dependencies** (`npm install` or `yarn`).
 5. **Implement** your feature / bugfix (using the **watch scripts**), you should **only need to modify `/src`**. Don’t worry about regenerating the build folder `/dist`, it is **built** in the **prepublish** phase.
