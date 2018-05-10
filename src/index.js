@@ -20,7 +20,7 @@ export default (transcript, document, root, format = `T`, speakers = false, digi
     transcript.words.forEach((wData, i, words) => {
       if (!wData.start) return;
       if (speakers && wData.speaker) return;
-      if (wData.start < pData.start || wData.start > pData.end) return;
+      if (wData.start < pData.start || wData.start >= pData.end) return;
 
       const word = document.createElement(format.startsWith(`T`) ? `span` : `a`);
       word.appendChild(document.createTextNode(`${wData.text} `));
