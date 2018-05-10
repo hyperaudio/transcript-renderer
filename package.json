@@ -1,6 +1,6 @@
 {
   "name": "@hyperaudio/transcript-renderer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Renders Hyperaudio JSON transcripts to HTML",
   "main": "dist/cjs/index.js",
   "browser": "dist/umd/transcriptRenderer.js",
